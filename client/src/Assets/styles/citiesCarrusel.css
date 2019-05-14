@@ -1,0 +1,63 @@
+.cities-carrusel-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+.cities-carrusel-div > div {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fade 5s infinite forwards;
+}
+
+@keyframes fade{
+  0% { opacity: 0;}
+  60% { opacity: 1;}
+  75% { opacity: 1;}
+  100% { opacity: 0;}
+}
+
+.cities-carrusel-div > div > div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cities-carrusel-div > div > div > div {
+    width: 90%;
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cities-carrusel-div > div > div > div > div {
+    padding: 2% 5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cities-carrusel-div > div > div > div > div > p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+}

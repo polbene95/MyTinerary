@@ -1,0 +1,21 @@
+.citiespage-div {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 5% 85% 10%;
+}
+
+.citiespage-div > .header {
+    grid-row: 1/2;
+}
+
+.citiespage-div > .section {
+    grid-row: 2/3;
+}
+
+.citiespage-div > .footer {
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

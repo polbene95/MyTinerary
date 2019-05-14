@@ -1,0 +1,84 @@
+.redirect-div {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 5% 85% 10%;
+}
+
+.redirect-div > .header {
+    grid-row: 1/2;
+}
+
+.redirect-div > .section {
+    grid-row: 2/3;
+}
+
+.redirect-div > .footer {
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redirect-div > .section > .select-method {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+}
+
+.redirect-div > .section > .select-method >.method-button {
+    border: 1px solid grey;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.redirect-div > .section > .select-method >.show {
+    background: #608cbb;
+}
+
+.redirect-div > .section > .form {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.redirect-div > .section > .form > .inputs-div {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redirect-div > .section > .form > .inputs-div >  input {
+    width: 90%;
+}
+
+.redirect-div > .section > .form > .inputs-div >  input:focus {
+    width: 90%;
+    background-color: #608cbb;
+}
+
+.redirect-div > .section > .form > button {
+    border: 1px solid grey;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.redirect-div > .section > .extra-options {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
